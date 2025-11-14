@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="cloud a"></div>
+      <div class="cloud b"></div>
+      <div class="cloud c"></div>
+      <div class="cloud d"></div>
+      <div class="cloud e"></div>
+      <div class="cloud f"></div>
+      <div id="todo">
+        <div class="how">
+          How to Use<i class="fa-solid fa-circle-question"></i>
+          <hr />
+        </div>
+        <div class="modal">
+          <div class="modalBox">
+            <i class="fa-solid fa-xmark"></i>
+            <ul>
+              <li>
+                안녕하세요!<br />
+                이 페이지는 javascript와 htmlcss를 이용해 구성한 투두리스트
+                페이지입니다.
+              </li>
+              <li>
+                <div class="user_mini">오늘의 목표를 입력하세요!</div>
+                이렇게 생긴 곳에 오늘 할 일이나 짧은 목표를 기입하신 뒤,
+                <div class="add_mini"><i class="fa-solid fa-plus"></i></div>
+                를 클릭하시면 리스트 형태로 정리됩니다.
+              </li>
+              <li>
+                생성된 리스트의
+                <i class="fa-solid fa-pen-to-square"></i> 아이콘을 클릭하면
+                리스트 별로 짧은 한 줄 메모를 남기는 것이 가능합니다.
+              </li>
+              <li>
+                리스트에 쓰인 일을 완료하셨을 경우
+                <span class="green">사각형 버튼</span>을 클릭하시면 완료된 시각
+                표시와 함께 체크 처리가 됩니다.
+              </li>
+              <li>
+                리스트를 삭제하고 싶으신 경우에는
+                <span class="red">휴지통 버튼</span>을 클릭해주세요.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <section id="top">
+          <h1><img src="img/title.png" ait="오늘의 투두 리스트" /></h1>
+          <div id="clock">
+            <div class="day">오늘은 <span></span></div>
+            <div class="time">지금은 <span></span></div>
+          </div>
+        </section>
+        <section id="bottom">
+          <div>
+            <input
+              id="user"
+              onkeypress="if(event.keyCode==13) {addTask()}"
+              placeholder="오늘의 목표를 입력하세요!"
+            />
+            <button id="add"><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <div id="board">
+            <p>저장된 목록이 없습니다.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="custom.js"></script>
+  </body>
+</html>
