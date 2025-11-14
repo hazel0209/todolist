@@ -1180,7 +1180,7 @@ body {
 
   /* 리스트 */
   .task {
-    width: 98%;
+    width: 100%;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -1189,8 +1189,8 @@ body {
     align-items: center;
     font-size: 18px;
   }
-  .task div:first-child {
-    width: 70%;
+  .task > div:first-child > div {
+    width: 100%;
     text-align: left;
   }
   .task div:first-child .memory {
@@ -1203,6 +1203,7 @@ body {
     color: #0099ff;
   }
   .task .memo {
+    width: 100%;
     font-size: 13px;
     margin-top: 5px;
     color: #00000090;
