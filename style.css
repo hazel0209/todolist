@@ -235,9 +235,11 @@ body {
   }
   #todo .modal .modalBox .green {
     color: #33af0d;
+    font-size: 20px;
   }
   #todo .modal .modalBox .red {
     color: #bd2241;
+    font-size: 20px;
   }
 
   /* top 타이틀 영역 */
@@ -646,9 +648,11 @@ body {
   }
   #todo .modal .modalBox .green {
     color: #33af0d;
+    font-size: 20px;
   }
   #todo .modal .modalBox .red {
     color: #bd2241;
+    font-size: 20px;
   }
 
   /* top 타이틀 영역 */
@@ -1058,9 +1062,11 @@ body {
   }
   #todo .modal .modalBox .green {
     color: #33af0d;
+    font-size: 20px;
   }
   #todo .modal .modalBox .red {
     color: #bd2241;
+    font-size: 20px;
   }
 
   /* top 타이틀 영역 */
