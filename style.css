@@ -110,6 +110,7 @@ body {
     border: 1px solid #7ec1ff;
     box-shadow: 2px 2px 2px #5fbfff;
     position: relative;
+    overflow: hidden;
   }
   #todo .how {
     position: absolute;
@@ -338,7 +339,7 @@ body {
     width: 80%;
     height: 48vh;
     margin: 10px auto 0px;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   #bottom #board p {
     line-height: 48vh;
@@ -523,6 +524,7 @@ body {
     border: 1px solid #7ec1ff;
     box-shadow: 2px 2px 2px #5fbfff;
     position: relative;
+    overflow: hidden;
   }
   #todo .how {
     position: absolute;
@@ -750,12 +752,13 @@ body {
   /* 보드 */
   #bottom #board {
     width: 80%;
-    height: 47vh;
+    height: 45vh;
     margin: 10px auto 0px;
-    overflow-y: scroll;
+    background-color: #00000050;
+    overflow-y: auto;
   }
   #bottom #board p {
-    line-height: 47vh;
+    line-height: 45vh;
     opacity: 0.3;
   }
   #board::-webkit-scrollbar {
@@ -937,6 +940,7 @@ body {
     border: 1px solid #7ec1ff;
     box-shadow: 2px 2px 2px #5fbfff;
     position: relative;
+    overflow: hidden;
   }
   #todo .how {
     position: absolute;
@@ -1011,11 +1015,12 @@ body {
   }
   #todo .modal .modalBox ul {
     opacity: 0;
+    font-size: 13px;
   }
   #todo .modal .modalBox > i {
     position: absolute;
-    right: 40px;
-    top: 40px;
+    right: 5vw;
+    top: 5vw;
     font-size: 30px;
     transition: 0.3s;
   }
@@ -1165,12 +1170,12 @@ body {
   /* 보드 */
   #bottom #board {
     width: 80%;
-    height: 47vh;
+    height: 40vh;
     margin: 10px auto 0px;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   #bottom #board p {
-    line-height: 47vh;
+    line-height: 40vh;
     opacity: 0.3;
   }
   #board::-webkit-scrollbar {
