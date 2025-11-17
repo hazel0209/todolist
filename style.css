@@ -754,7 +754,6 @@ body {
     width: 80%;
     height: 45vh;
     margin: 10px auto 0px;
-    background-color: #00000050;
     overflow-y: auto;
   }
   #bottom #board p {
