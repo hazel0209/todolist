@@ -162,8 +162,12 @@ function complete(id) {
       if (second < 10) {
         second = "0" + second;
       }
+
       finisher = `${hour} : ${minute} : ${second} 완료!`;
     }
+    // else if (task.id != id) {
+    //   finisher = "";
+    // }
   });
   render();
 }
