@@ -365,7 +365,7 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid #aaa;
     align-items: center;
-    font-size: 18px;
+    font-size: 2.8vw;
   }
   .task div:first-child {
     width: 70%;
@@ -780,7 +780,7 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid #aaa;
     align-items: center;
-    font-size: 18px;
+    font-size: 2.8vw;
   }
   .task div:first-child {
     width: 70%;
@@ -1014,7 +1014,7 @@ body {
   }
   #todo .modal .modalBox ul {
     opacity: 0;
-    font-size: 13px;
+    font-size: 2.3vw;
   }
   #todo .modal .modalBox > i {
     position: absolute;
@@ -1197,7 +1197,7 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid #aaa;
     align-items: center;
-    font-size: 18px;
+    font-size: 2.8vw;
   }
   .task > div:first-child > div {
     width: 100%;
